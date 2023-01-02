@@ -5,8 +5,9 @@ body{
 }
 #container{
     display: flex;
-    width: 1700px;
+    width: 900px;
     height: auto;
     justify-content: space-around;
     border: violet 2px solid;
+    flex-wrap: wrap;
 }
