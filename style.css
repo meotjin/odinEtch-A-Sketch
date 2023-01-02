@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    display: flex;
+    width: 1700px;
+    height: auto;
+    justify-content: space-around;
+    border: violet 2px solid;
+}
