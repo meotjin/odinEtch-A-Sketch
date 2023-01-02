@@ -1,15 +1,27 @@
 body{
-    margin-top: 50px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     background-color: cadetblue;
+    gap: 30px;
 }
+
+button{
+    margin-top: 10px;
+    width: 100 px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: white;
+    border: black 2px solid;
+    border-radius: 15px;
+}
+
 #container{
     display: flex;
-    width: 900px;
+    width: 800px;
     height: auto;
-    justify-content: space-around;
+    justify-content: space-between;
     border: violet 2px solid;
     flex-wrap: wrap;
 }
